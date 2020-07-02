@@ -1,7 +1,13 @@
+const kimm = {
+  name: "Kimm",
+  age: 24,
+  gender: "Male",
+}
+
 const resolvers = {
   Query: {
-    name: () => "Kimm"
+    person: () => kimm
   }
 };
 
-export default resolvers
+export default resolvers;
