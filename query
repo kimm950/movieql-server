@@ -1,0 +1,33 @@
+query {
+  
+  feed {
+    comments
+    likeNumber
+  }
+  notification {
+    isRed
+  }
+  user {
+    usename
+    profilePic
+  }
+}
+
+
+{
+  feed:[
+    {
+      comments: 1,
+      likeNumber: 20
+  }
+  ],
+  notification: [
+    {
+      isRed: true
+    }
+  ],
+  user {
+    usename: 'Kim'
+    profilePic: 'https://'
+  }
+}
