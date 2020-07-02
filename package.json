@@ -5,5 +5,8 @@
   "main": "index.js",
   "repository": "https://github.com/kimm950/movieql-server",
   "author": "Hyun Sung Kim<kimuo950@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "graphql-yoga": "^1.18.3"
+  }
 }
