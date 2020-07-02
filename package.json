@@ -1,0 +1,9 @@
+{
+  "name": "movieql-server",
+  "version": "1.0.0",
+  "description": "Movie app API with Graphql",
+  "main": "index.js",
+  "repository": "https://github.com/kimm950/movieql-server",
+  "author": "Hyun Sung Kim<kimuo950@gmail.com>",
+  "license": "MIT"
+}
